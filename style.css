@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(test.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+nav{
+    color: white;
+}
+nav h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+aside{
+    margin-top: 40px;
+}
+aside pre input{
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    color: #000;
+    display: inline-block;
+    border-top: none;
+     border-left: none;
+     border-right: none;
+     border: 6px solid #386641;
+     border-bottom: #386641;
+     background-color: #fff;
+}
+aside pre input::placeholder{
+    text-transform: capitalize;
+    color: #000;
+}
+section{
+    display: flex;
+    margin-top: -160px;
+    margin-left: 900px;
+}
+section input{
+    padding: 50px;
+    color: #000;
+    display: inline-block;
+    border-top: none;
+     border-left: none;
+     border-right: none;
+     border: 6px solid #386641;
+     border-bottom: #386641;
+     background-color: #fff;
+       
+}
+section input::placeholder{
+    text-align: center;
+    color: #000;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer button{
+    margin-top: 200px;
+    width: 500px;
+    height: 50px;
+    background-color: #386641;
+    color: #fff ;
+    border: solid #386641;
+}
+ /*
+  if messege send = #0077b7
+ if messege dont send = #9d0208 
+ */
+.false{
+    height: 100px;
+    width: 100%;
+    background-color:#9d0208;
+    color: #fff;
+    text-align: center;
+}
+.true{
+    height: 100px;
+    width: 100%;
+    background-color:#0077b7;
+    color: #fff;
+    text-align: center;
+}
